@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PetShop</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
+</head>
+<body>
+    <div id="login"  class="div-input">
+        <div class="back-div">
+            <a class="login-a" onclick="backLogin()">
+                <img src="../images/icones/voltar.svg" alt="Voltar">
+                <h4>Voltar</h4>
+            </a>
+        </div>
+        <form class="form" action="">
+            <div class="form-div">
+                <label class="form-div-label" for="email">Email:</label>
+                <input class="form-div-input" type="email" name="email" id="email">
+            </div>
+            <div class="form-div">
+                <label class="form-div-label" for="password">Senha:</label>
+                <input class="form-div-input" type="password" name="password" id="password">
+            </div>
+            <a href="principal.html"><input class="form-input-submit" value="Entrar"></a>
+        </form>
+    </div>
+
+    <div id="register" class="div-input">
+        <div class="back-div">
+            <a class="register-a" href="#" onclick="backRegister()">
+                <img src="../images/icones/voltar.svg" alt="Voltar">
+                <h4>Voltar</h4>
+            </a>
+        </div>
+        <form class="form" action="">
+            <div class="form-div">
+                <label class="form-div-label" for="name">Nome:</label>
+                <input class="form-div-input" type="text" name="name" id="name">
+            </div>
+            <div class="form-div">
+                <label class="form-div-label" for="email">Email:</label>
+                <input class="form-div-input" type="email" name="email" id="email">
+            </div>
+            <div class="form-div">
+                <label for="password">Senha:</label>
+                <input class="form-div-input" type="password" name="password" id="password">
+            </div>
+            <input class="form-input-submit" type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li><a onclick="login()">LOGIN</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <picture class="container-picture">
+                <source media="(max-width: 767px)"srcset="../images/text/title-curto.svg">
+                <img src="../images/text/title-longo.svg"></h1>
+            </picture>
+            <img class="container-img"src="../images/pets/pet6.svg" alt="Cachorro">
+        </div>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="../images/videos/video.webm" type="video/mp4">
+        </video>
+
+        <div class="hero-div">
+            <h1 class="hero-div-h1">O MELHOR PARA SEU PET</h1>
+            <p class="hero-div-p">por um valor mais acessível</p>
+            <input class="hero-div-button" type="button"  href="#" onclick="register()" value="Cadastre-se já">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-div">
+            <div class="services-div-title">
+                <h1 class="services-div-title-h1">Serviços</h1>
+            </div>
+
+            <div class="services-div-list">
+                <div class="services-div-list-one">
+                    <ul class="services-ul">
+                        <li>Banho e Tosa</li>
+                        <li>Higiene Bucal</li>
+                        <li>Corte de Unhas</li>
+                        <li>Hidratações</li>
+                    </ul>
+                </div>
+                <div class="services-div-list-two">
+                    <ul class="services-ul">
+                        <li>Acessórios</li>
+                        <li>Rações</li>
+                        <li>Avaliação Nutricional</li>
+                        <li>Exames laboratoriais</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img class="services-img" src="../images/pets/pet.svg" alt="Cachorro">
+    </section>
+
+    <footer class="footer">
+        <div class="footer-div-header">
+            <h1 class="footer-div-header-h1">Profissionais</h1>
+            <p class="footer-div-header-p">Especializados</p>
+        </div>
+
+        <div class="footer-div-content">
+            <div class="footer-div-content-container">
+
+            </div>
+            <div class="footer-div-content-container">
+                <ul class="footer-ul">
+                    <li class="footer-ul-li">
+                        <div class="footer-div-content-data">
+                            <img class="footer-div-img" src="../images/profissionais/p1.jpg" alt="Julie Garden">
+                            <div class="footer-data">
+                                <h3 class="medium">Julie Garden</h3>
+                                <p class="smaller">Veterinária</p>
+                            </div>                            
+                        </div>
+                    </li>
+                    <li class="footer-ul-li">
+                        <div class="footer-div-content-data">
+                            <img class="footer-div-img" src="../images/profissionais/p2.jpg" alt="Oliver Aliver">
+                            <div class="footer-data">
+                                <h3 class="medium">Oliver Aliver</h3>
+                                <p class="smaller">Veterinário</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-div-content-container">
+                <ul class="footer-ul">
+                    <li class="footer-ul-li">
+                        <div class="footer-div-content-data">
+                            <img class="footer-div-img" src="../images/profissionais/p3.jpg" alt="Rivonaldo do Vale">
+                            <div class="footer-data">
+                                <h3 class="medium">Rivonaldo do Vale</h3>
+                                <p class="smaller">Farmacêutico</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="footer-ul-li">
+                        <div class="footer-div-content-data">
+                            <img class="footer-div-img" src="../images/profissionais/p4.jpg" alt="Mariano Rodrigo">
+                            <div class="footer-data">
+                                <h3 class="medium">Mariano Rodrigo</h3>
+                                <p class="smaller">Nutricionista</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-div-footer">
+            <div class="footer-div-footer-div-img">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="../images/pets/pet2-curto.svg">
+                    <img class="footer-img"src="../images/pets/pet2.svg" alt="Cachorro">
+                </picture>
+            </div>
+
+            <div class="footer-div-footer-div-developer">
+                <p class="end smaller ">Desenvolvido por Neemias Renan</p>
+                <div class="footer-div-developer-social">
+                    <p class="end smaller">@neemias.renan</p>
+                    <img src="../images/icones/instagram.svg" alt="instagram">
+                </div>
+            </div>            
+        </div>
+    </footer>
+    <script src='../js/index.js'></script>
+</body>
+</html>

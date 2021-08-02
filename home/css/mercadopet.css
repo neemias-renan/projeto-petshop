@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Extra-light 200 - Light 300 - Regular 400 - Medium 500 - Semi-bold 600 - Bold 700 - Extra-bold 800 - Black 900 -*/
+*{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter',sans-serif;
+    position: absolute;
+    display: unset;
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.bold{
+    font-weight: 700;
+}
+.regular{
+    font-weight: 400;
+}
+.light{
+    font-weight: 300;
+}
+.extralight{
+    font-weight: 200;
+}
+
+.smaller{
+    font-size: smaller;
+}
+.larger{
+    font-size: larger;
+}
+.xx-large{
+    font-size: xx-large;
+}
+.xxx-large{
+    font-size: -webkit-xxx-large;
+}
+
+.header{
+}
+.header-nav{
+    padding: 3em 15% 2em;
+}
+.header-nav-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.header-nav-ul-div{
+    display: flex;
+    column-gap: 4em;
+}
+
+.header-nav-icons{
+    display: none;
+    padding: 3em 15% 2em;
+}
+.header-nav-icons-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.header-nav-icons-ul-div{
+    display: flex;
+    column-gap: 4em;
+}
+.section-one{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-one-div-imgs{
+    margin-top: 1em;
+}
+.section-one-div-imgs,.section-one-title{
+    padding-left: 15%;
+}
+.section-one-img{
+    width: 9em;
+}
+
+.section-two{
+    width: 100%;
+    height: 50%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-two-div{
+    width: 100%;
+}
+.section-two-title{
+    padding-left: 15%;
+}
+.section-two-imgs{
+    width: 14em;
+}
+.section-two-div-ul{
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.section-three{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-three-div{
+    width: 100%;
+}
+.section-three-title{
+    padding-left: 15%;
+}
+.section-three-imgs{
+    width: 14em;
+}
+.section-three-div-ul{
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+.glider{
+    display: flex;
+}
+.glider-slide {
+    min-width: 150px;
+}
+.glider-track{
+    display:flex;
+    align-items: flex-end;
+}
+
+
+.end{
+    text-align: end;
+}
+
+.footer{
+    background: #232323;
+    display: flex;
+    height: 15%;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.footer-div{
+    padding-right: 6em;
+    align-self: baseline;
+    padding-top: 2em;
+}
+.footer-div-developer-social{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 7px;
+    margin-top: 4px;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px){}
+
+@media screen and (max-width: 849px){}
+
+@media screen and (max-width: 675px){}
+
+@media screen and (max-width: 426px){
+    
+    .header-nav{
+        display: none;
+    }
+    .header-nav-icons{
+        display: block;
+        padding: 3em 9% 2em;
+    }
+
+    .container-div {
+        width: 84%;
+    }
+    .container-div-notifications {
+        margin-top: -9em;
+    }
+
+    .header-nav-icons-ul-div {
+        column-gap: 3em;
+    }
+    .section-one-div-imgs,.section-one-title{
+        padding-left: 9%;
+    }
+    .section-one-img{
+        width: 7em;
+    }
+    .section-two-title{
+        padding-left: 9%;
+    }
+    .footer-div{
+        padding-right: 9%;
+    }
+    .glider-track{
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+}
+
+
+@media screen and (max-width: 390px){}
