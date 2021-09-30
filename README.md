@@ -1,2 +1,2 @@
 # projeto-petshop
- Projeto de interface Web 
+ Projeto para a matéria de Design Web.
